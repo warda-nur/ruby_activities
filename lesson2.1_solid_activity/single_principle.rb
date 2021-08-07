@@ -1,12 +1,12 @@
 class School
-    def initialize(students, desk_chairs)
+  def initialize(students, desk_chairs)
         @students = students
         @desk_chairs = desk_chairs
-    end
+  end
 
-    def final_total
+  def final_total
         @students * @desk_chairs
-    end
+  end
 end
 
 total = School.new(100, 50)

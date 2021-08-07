@@ -1,12 +1,12 @@
 class Food 
-    def initialize(name, quantity)
+ def initialize(name, quantity)
         @name = name
         @quantity = quantity
-    end
+  end
 
-    def eat
+  def eat
         puts "#{@name} are my favorite food! I can eat #{@quantity} of these."
-    end
+   end
 end
 
 food = Food.new("burgers", 10)
